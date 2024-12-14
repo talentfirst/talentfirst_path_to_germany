@@ -262,7 +262,7 @@ export default function Germany() {
               <div className="container mx-auto px-4 text-center">
                 <h2 className="text-4xl font-bold mb-8">Ready to Launch Your German Career?</h2>
                 <p className="text-xl mb-8">
-                  Join 200+ successful professionals who transformed their careers with us!
+                  Join 200+ successful professionals who transformed their careers with us!!
                 </p>
                 <button 
                   onClick={handleForm}
