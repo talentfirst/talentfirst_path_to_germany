@@ -173,7 +173,7 @@ export default function Germany() {
         ) : (
           <div className="min-h-screen bg-gradient-to-br from-teal-50 to-cyan-50">
 
-<div className="flex items-center sticky top-0 z-50 p-5 ml-20">
+<div className="flex items-center sticky top-0 z-50 p-5 ml-2 lg:ml-20 md:ml-12">
                         
                             <img src={logo} alt="TalentFirst Logo" className="h-10 w-auto" />
                         
@@ -181,13 +181,14 @@ export default function Germany() {
             {/* Hero */}
             <header className="min-h-screen flex items-center justify-center text-center p-4">
               <div>
-                <h1 className="text-6xl font-bold mb-6">
+                <h1 className="text-6xl lg:text-7xl font-bold mb-6">
                   Launch Your German Career
                   <div className="text-teal-600">in 180 Days!</div>
                 </h1>
                 <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-600">
                   Zero to Job-Ready: Master German, Land Your Dream Role,<br></br>
-                  <span className="text-teal-600 text-2xl font-bold"> Over 1 million Job Vacancies!</span>
+                  <span className="text-teal-600 text-xl md:text-2xl font-bold"> Over 1 million Job Vacancies!</span>
+                  <br /><span className="text-teal-600 text-xl md:text-2xl font-bold"> 90,000 Visas for Indians!</span>
                 </p>
                 <button
                   onClick={handleForm}
